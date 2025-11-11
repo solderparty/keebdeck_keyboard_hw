@@ -7,118 +7,118 @@
 <setting verticaltext="up"/>
 <setting extendedlayers="yes"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xffff5147" whitehighlight="0xffff4102" coloredhighlight="0xffff4102" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" blackcolor="0xc800bfbf" whitecolor="0xc800bfbf" coloredcolor="0xccffe74c" blackhighlight="0xff00b7f4" whitehighlight="0xff00b7f4" coloredhighlight="0xffedff47" fill="1" visible="yes" active="yes"/>
-<layer number="3" name="Route3" blackcolor="0xc8faaf3c" whitecolor="0xc8faaf3c" coloredcolor="0xcc91d178" blackhighlight="0xffffe341" whitehighlight="0xffffe341" coloredhighlight="0xff15ff0d" fill="1" visible="yes" active="yes"/>
-<layer number="4" name="Route4" blackcolor="0xc89fc966" whitecolor="0xc89fc966" coloredcolor="0xccffdda1" blackhighlight="0xc875c900" whitehighlight="0xc875c900" coloredhighlight="0xccffa200" fill="1" visible="yes" active="yes"/>
-<layer number="5" name="Route5" blackcolor="0xc8a7bacf" whitecolor="0xc8a7bacf" coloredcolor="0xcc5fad56" blackhighlight="0xc80064cf" whitehighlight="0xc80064cf" coloredhighlight="0xcc14ad00" fill="1" visible="yes" active="yes"/>
-<layer number="6" name="Route6" blackcolor="0xc8c5a1f8" whitecolor="0xc8c5a1f8" coloredcolor="0xcc5e897c" blackhighlight="0xc86300f8" whitehighlight="0xc86300f8" coloredhighlight="0xcc00895e" fill="1" visible="yes" active="yes"/>
-<layer number="7" name="Route7" blackcolor="0xc8ff8cc6" whitecolor="0xc8ff8cc6" coloredcolor="0xcc6f45b4" blackhighlight="0xc8ff0084" whitehighlight="0xc8ff0084" coloredhighlight="0xcc4200b4" fill="1" visible="yes" active="yes"/>
-<layer number="8" name="Route8" blackcolor="0xc8f26a52" whitecolor="0xc8f26a52" coloredcolor="0xcc516363" blackhighlight="0xc8f22400" whitehighlight="0xc8f22400" coloredhighlight="0xcc006363" fill="1" visible="yes" active="yes"/>
-<layer number="9" name="Route9" blackcolor="0xc89bd5ef" whitecolor="0xc89bd5ef" coloredcolor="0xccd6a2ad" blackhighlight="0xc800a7ef" whitehighlight="0xc800a7ef" coloredhighlight="0xccd6002e" fill="1" visible="yes" active="yes"/>
-<layer number="10" name="Route10" blackcolor="0xc8ffbeab" whitecolor="0xc8ffbeab" coloredcolor="0xccef476f" blackhighlight="0xc8ff3700" whitehighlight="0xc8ff3700" coloredhighlight="0xccef003c" fill="1" visible="yes" active="yes"/>
-<layer number="11" name="Route11" blackcolor="0xc8e8430f" whitecolor="0xc8e8430f" coloredcolor="0xccd4dcff" blackhighlight="0xc8e83600" whitehighlight="0xc8e83600" coloredhighlight="0xcc0033ff" fill="1" visible="yes" active="yes"/>
-<layer number="12" name="Route12" blackcolor="0xc8bb7a14" whitecolor="0xc8bb7a14" coloredcolor="0xcc00bfb2" blackhighlight="0xc8bb7000" whitehighlight="0xc8bb7000" coloredhighlight="0xcc00bfaf" fill="1" visible="yes" active="yes"/>
-<layer number="13" name="Route13" blackcolor="0xc8658d30" whitecolor="0xc8658d30" coloredcolor="0xcc65def1" blackhighlight="0xc8528d00" whitehighlight="0xc8528d00" coloredhighlight="0xcc00d1f1" fill="1" visible="yes" active="yes"/>
-<layer number="14" name="Route14" blackcolor="0xc823a597" whitecolor="0xc823a597" coloredcolor="0xccc55ea3" blackhighlight="0xff00b7d3" whitehighlight="0xff00b7d3" coloredhighlight="0xfffc006d" fill="1" visible="yes" active="yes"/>
-<layer number="15" name="Route15" blackcolor="0xc8a76ef5" whitecolor="0xc8a76ef5" coloredcolor="0xccf56416" blackhighlight="0xffbe3bff" whitehighlight="0xffbe3bff" coloredhighlight="0xffffad3b" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Route16" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xff147eff" whitehighlight="0xff147eff" coloredhighlight="0xff147eff" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xff00dbc5" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xccffcd07" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xfff9ff47" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="BoardOutline" blackcolor="0xb462d986" whitecolor="0xb462d986" coloredcolor="0xcceec643" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xffffff32" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="SilkscreenTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="SilkscreenBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="OriginsTop" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xff92ff0d" coloredhighlight="0xff92ff0d" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="OriginsBottom" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xff92ff0d" coloredhighlight="0xff92ff0d" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="NamesTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="NamesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="ValuesTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="ValuesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="SolderMaskTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="3" visible="no" active="yes"/>
-<layer number="30" name="SolderMaskBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="6" visible="no" active="yes"/>
-<layer number="31" name="StencilTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="4" visible="no" active="yes"/>
-<layer number="32" name="StencilBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="5" visible="no" active="yes"/>
-<layer number="33" name="FinishTop" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="3" visible="no" active="yes"/>
-<layer number="34" name="FinishBottom" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="6" visible="no" active="yes"/>
-<layer number="35" name="GlueTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="4" visible="no" active="yes"/>
-<layer number="36" name="GlueBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="5" visible="no" active="yes"/>
-<layer number="37" name="TestTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="TestBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="ComponentExcludeTop" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xffff5147" whitehighlight="0xffff4102" coloredhighlight="0xffff4102" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="ComponentExcludeBottom" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xff147eff" whitehighlight="0xff147eff" coloredhighlight="0xff147eff" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="RestrictTop" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xffff5147" whitehighlight="0xffff4102" coloredhighlight="0xffff4102" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="RestrictBottom" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xff147eff" whitehighlight="0xff147eff" coloredhighlight="0xff147eff" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="RestrictVias" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xff00dbc5" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" blackcolor="0xcc32c8c8" whitecolor="0xb432c8c8" coloredcolor="0xb432c8c8" blackhighlight="0xff01c0ff" whitehighlight="0xff01c0ff" coloredhighlight="0xff01c0ff" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="51" name="DocumentTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="DocumentBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes"/>
-<layer number="88" name="SimResults" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb44400c2" whitehighlight="0xb44400c2" coloredhighlight="0xc8fd8300" fill="1" visible="yes" active="yes"/>
-<layer number="89" name="SimProbes" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb44400c2" whitehighlight="0xb44400c2" coloredhighlight="0xc8fd8300" fill="1" visible="yes" active="yes"/>
-<layer number="90" name="Modules" blackcolor="0xdcfac36e" whitecolor="0xdcf57c10" coloredcolor="0xc8d9ff3d" blackhighlight="0xdcfa9600" whitehighlight="0xdcf57200" coloredhighlight="0xc8d0ff00" fill="1" visible="yes" active="yes"/>
-<layer number="91" name="Nets" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8e3e3e3" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8e3e3e3" fill="1" visible="yes" active="yes"/>
-<layer number="92" name="Busses" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8d62525" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8d60000" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" blackcolor="0xdcbbbbbb" whitecolor="0xdcbbbbbb" coloredcolor="0xc839d437" blackhighlight="0xdcbbbbbb" whitehighlight="0xdcbbbbbb" coloredhighlight="0xc804d400" fill="1" visible="yes" active="yes"/>
-<layer number="94" name="Symbols" blackcolor="0xdcfac36e" whitecolor="0xdcf57c10" coloredcolor="0xc8e6e600" blackhighlight="0xdcfa9600" whitehighlight="0xdcf57200" coloredhighlight="0xc8e6e600" fill="1" visible="yes" active="yes"/>
-<layer number="95" name="Names" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc80067ce" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc80067ce" fill="1" visible="yes" active="yes"/>
-<layer number="97" name="Info" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc88500de" fill="1" visible="yes" active="yes"/>
-<layer number="98" name="Guide" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc88500de" fill="1" visible="yes" active="yes"/>
-<layer number="257" name="Route17" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="258" name="Route18" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="259" name="Route19" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="260" name="Route20" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="261" name="Route21" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="262" name="Route22" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="263" name="Route23" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="264" name="Route24" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="265" name="Route25" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="266" name="Route26" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="267" name="Route27" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="268" name="Route28" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="269" name="Route29" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="270" name="Route30" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="271" name="Route31" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="272" name="Route32" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="273" name="Route33" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="274" name="Route34" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="275" name="Route35" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="276" name="Route36" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="277" name="Route37" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="278" name="Route38" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="279" name="Route39" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="280" name="Route40" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="281" name="Route41" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="282" name="Route42" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="283" name="Route43" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="284" name="Route44" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="285" name="Route45" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="286" name="Route46" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="287" name="Route47" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="288" name="Route48" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
-<layer number="289" name="Route49" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xc8ff0033" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="1" visible="yes" active="yes"/>
-<layer number="290" name="Route50" blackcolor="0xc800bfbf" whitecolor="0xc800bfbf" coloredcolor="0xccffe74c" blackhighlight="0xc800bfbf" whitehighlight="0xc800bfbf" coloredhighlight="0xccffd900" fill="1" visible="yes" active="yes"/>
-<layer number="291" name="Route51" blackcolor="0xc8faaf3c" whitecolor="0xc8faaf3c" coloredcolor="0xcc91d178" blackhighlight="0xc8fa9600" whitehighlight="0xc8fa9600" coloredhighlight="0xcc3bd100" fill="1" visible="yes" active="yes"/>
-<layer number="292" name="Route52" blackcolor="0xc89fc966" whitecolor="0xc89fc966" coloredcolor="0xccffdda1" blackhighlight="0xc875c900" whitehighlight="0xc875c900" coloredhighlight="0xccffa200" fill="1" visible="yes" active="yes"/>
-<layer number="293" name="Route53" blackcolor="0xc8a7bacf" whitecolor="0xc8a7bacf" coloredcolor="0xcc5fad56" blackhighlight="0xc80064cf" whitehighlight="0xc80064cf" coloredhighlight="0xcc14ad00" fill="1" visible="yes" active="yes"/>
-<layer number="294" name="Route54" blackcolor="0xc8c5a1f8" whitecolor="0xc8c5a1f8" coloredcolor="0xcc5e897c" blackhighlight="0xc86300f8" whitehighlight="0xc86300f8" coloredhighlight="0xcc00895e" fill="1" visible="yes" active="yes"/>
-<layer number="295" name="Route55" blackcolor="0xc8ff8cc6" whitecolor="0xc8ff8cc6" coloredcolor="0xcc6f45b4" blackhighlight="0xc8ff0084" whitehighlight="0xc8ff0084" coloredhighlight="0xcc4200b4" fill="1" visible="yes" active="yes"/>
-<layer number="296" name="Route56" blackcolor="0xc8f26a52" whitecolor="0xc8f26a52" coloredcolor="0xcc516363" blackhighlight="0xc8f22400" whitehighlight="0xc8f22400" coloredhighlight="0xcc006363" fill="1" visible="yes" active="yes"/>
-<layer number="297" name="Route57" blackcolor="0xc89bd5ef" whitecolor="0xc89bd5ef" coloredcolor="0xccd6a2ad" blackhighlight="0xc800a7ef" whitehighlight="0xc800a7ef" coloredhighlight="0xccd6002e" fill="1" visible="yes" active="yes"/>
-<layer number="298" name="Route58" blackcolor="0xc8ffbeab" whitecolor="0xc8ffbeab" coloredcolor="0xccef476f" blackhighlight="0xc8ff3700" whitehighlight="0xc8ff3700" coloredhighlight="0xccef003c" fill="1" visible="yes" active="yes"/>
-<layer number="299" name="Route59" blackcolor="0xc8e8430f" whitecolor="0xc8e8430f" coloredcolor="0xccd4dcff" blackhighlight="0xc8e83600" whitehighlight="0xc8e83600" coloredhighlight="0xcc0033ff" fill="1" visible="yes" active="yes"/>
-<layer number="300" name="Route60" blackcolor="0xc8bb7a14" whitecolor="0xc8bb7a14" coloredcolor="0xcc00bfb2" blackhighlight="0xc8bb7000" whitehighlight="0xc8bb7000" coloredhighlight="0xcc00bfaf" fill="1" visible="yes" active="yes"/>
-<layer number="301" name="Route61" blackcolor="0xc8658d30" whitecolor="0xc8658d30" coloredcolor="0xcc65def1" blackhighlight="0xc8528d00" whitehighlight="0xc8528d00" coloredhighlight="0xcc00d1f1" fill="1" visible="yes" active="yes"/>
-<layer number="302" name="Route62" blackcolor="0xc823a597" whitecolor="0xc823a597" coloredcolor="0xccc55ea3" blackhighlight="0xc800a592" whitehighlight="0xc800a592" coloredhighlight="0xccc50087" fill="1" visible="yes" active="yes"/>
-<layer number="303" name="Route63" blackcolor="0xc8a76ef5" whitecolor="0xc8a76ef5" coloredcolor="0xccf56416" blackhighlight="0xc86600f5" whitehighlight="0xc86600f5" coloredhighlight="0xccf55200" fill="1" visible="yes" active="yes"/>
-<layer number="304" name="Bottom" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xc80097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xffff5147" whitehighlight="0xffff4102" coloredhighlight="0xffff4102" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="2" name="Route2" blackcolor="0xc800bfbf" whitecolor="0xc800bfbf" coloredcolor="0xccffe74c" blackhighlight="0xff00b7f4" whitehighlight="0xff00b7f4" coloredhighlight="0xffedff47" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="3" name="Route3" blackcolor="0xc8faaf3c" whitecolor="0xc8faaf3c" coloredcolor="0xcc91d178" blackhighlight="0xffffe341" whitehighlight="0xffffe341" coloredhighlight="0xff15ff0d" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="4" name="Route4" blackcolor="0xc89fc966" whitecolor="0xc89fc966" coloredcolor="0xccffdda1" blackhighlight="0xc875c900" whitehighlight="0xc875c900" coloredhighlight="0xccffa200" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="5" name="Route5" blackcolor="0xc8a7bacf" whitecolor="0xc8a7bacf" coloredcolor="0xcc5fad56" blackhighlight="0xc80064cf" whitehighlight="0xc80064cf" coloredhighlight="0xcc14ad00" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="6" name="Route6" blackcolor="0xc8c5a1f8" whitecolor="0xc8c5a1f8" coloredcolor="0xcc5e897c" blackhighlight="0xc86300f8" whitehighlight="0xc86300f8" coloredhighlight="0xcc00895e" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="7" name="Route7" blackcolor="0xc8ff8cc6" whitecolor="0xc8ff8cc6" coloredcolor="0xcc6f45b4" blackhighlight="0xc8ff0084" whitehighlight="0xc8ff0084" coloredhighlight="0xcc4200b4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="8" name="Route8" blackcolor="0xc8f26a52" whitecolor="0xc8f26a52" coloredcolor="0xcc516363" blackhighlight="0xc8f22400" whitehighlight="0xc8f22400" coloredhighlight="0xcc006363" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="9" name="Route9" blackcolor="0xc89bd5ef" whitecolor="0xc89bd5ef" coloredcolor="0xccd6a2ad" blackhighlight="0xc800a7ef" whitehighlight="0xc800a7ef" coloredhighlight="0xccd6002e" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="10" name="Route10" blackcolor="0xc8ffbeab" whitecolor="0xc8ffbeab" coloredcolor="0xccef476f" blackhighlight="0xc8ff3700" whitehighlight="0xc8ff3700" coloredhighlight="0xccef003c" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="11" name="Route11" blackcolor="0xc8e8430f" whitecolor="0xc8e8430f" coloredcolor="0xccd4dcff" blackhighlight="0xc8e83600" whitehighlight="0xc8e83600" coloredhighlight="0xcc0033ff" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="12" name="Route12" blackcolor="0xc8bb7a14" whitecolor="0xc8bb7a14" coloredcolor="0xcc00bfb2" blackhighlight="0xc8bb7000" whitehighlight="0xc8bb7000" coloredhighlight="0xcc00bfaf" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="13" name="Route13" blackcolor="0xc8658d30" whitecolor="0xc8658d30" coloredcolor="0xcc65def1" blackhighlight="0xc8528d00" whitehighlight="0xc8528d00" coloredhighlight="0xcc00d1f1" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="14" name="Route14" blackcolor="0xc823a597" whitecolor="0xc823a597" coloredcolor="0xccc55ea3" blackhighlight="0xff00b7d3" whitehighlight="0xff00b7d3" coloredhighlight="0xfffc006d" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="15" name="Route15" blackcolor="0xc8a76ef5" whitecolor="0xc8a76ef5" coloredcolor="0xccf56416" blackhighlight="0xffbe3bff" whitehighlight="0xffbe3bff" coloredhighlight="0xffffad3b" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="16" name="Route16" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xff147eff" whitehighlight="0xff147eff" coloredhighlight="0xff147eff" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="17" name="Pads" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xff00dbc5" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="18" name="Vias" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xccffcd07" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xfff9ff47" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="19" name="Unrouted" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="20" name="BoardOutline" blackcolor="0xb462d986" whitecolor="0xb462d986" coloredcolor="0xcceec643" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xffffff32" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="21" name="SilkscreenTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="22" name="SilkscreenBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="23" name="OriginsTop" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xff92ff0d" coloredhighlight="0xff92ff0d" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="24" name="OriginsBottom" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xff92ff0d" coloredhighlight="0xff92ff0d" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="25" name="NamesTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="26" name="NamesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="27" name="ValuesTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="28" name="ValuesBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="29" name="SolderMaskTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="3" visible="yes" active="yes" locked="no"/>
+<layer number="30" name="SolderMaskBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="6" visible="yes" active="yes" locked="no"/>
+<layer number="31" name="StencilTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="4" visible="yes" active="yes" locked="no"/>
+<layer number="32" name="StencilBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="5" visible="yes" active="yes" locked="no"/>
+<layer number="33" name="FinishTop" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="3" visible="yes" active="yes" locked="no"/>
+<layer number="34" name="FinishBottom" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccffffff" whitehighlight="0xffc0ff01" coloredhighlight="0xffc0ff01" fill="6" visible="yes" active="yes" locked="no"/>
+<layer number="35" name="GlueTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="4" visible="yes" active="yes" locked="no"/>
+<layer number="36" name="GlueBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="5" visible="yes" active="yes" locked="no"/>
+<layer number="37" name="TestTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="38" name="TestBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="39" name="ComponentExcludeTop" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xffff5147" whitehighlight="0xffff4102" coloredhighlight="0xffff4102" fill="11" visible="yes" active="yes" locked="no"/>
+<layer number="40" name="ComponentExcludeBottom" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xff147eff" whitehighlight="0xff147eff" coloredhighlight="0xff147eff" fill="11" visible="yes" active="yes" locked="no"/>
+<layer number="41" name="RestrictTop" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xffff5147" whitehighlight="0xffff4102" coloredhighlight="0xffff4102" fill="10" visible="yes" active="yes" locked="no"/>
+<layer number="42" name="RestrictBottom" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xff147eff" whitehighlight="0xff147eff" coloredhighlight="0xff147eff" fill="10" visible="yes" active="yes" locked="no"/>
+<layer number="43" name="RestrictVias" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xff17ff96" whitehighlight="0xff17ff96" coloredhighlight="0xff00dbc5" fill="10" visible="yes" active="yes" locked="no"/>
+<layer number="44" name="Drills" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="45" name="Holes" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="46" name="Milling" blackcolor="0xcc32c8c8" whitecolor="0xb432c8c8" coloredcolor="0xb432c8c8" blackhighlight="0xff01c0ff" whitehighlight="0xff01c0ff" coloredhighlight="0xff01c0ff" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="47" name="Measures" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="48" name="Document" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="49" name="Reference" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="51" name="DocumentTop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="52" name="DocumentBottom" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffffff" whitehighlight="0xbba4a4a4" coloredhighlight="0xbba4a4a4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="88" name="SimResults" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb44400c2" whitehighlight="0xb44400c2" coloredhighlight="0xc8fd8300" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="89" name="SimProbes" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb44400c2" whitehighlight="0xb44400c2" coloredhighlight="0xc8fd8300" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="90" name="Modules" blackcolor="0xdcfac36e" whitecolor="0xdcf57c10" coloredcolor="0xc8d9ff3d" blackhighlight="0xdcfa9600" whitehighlight="0xdcf57200" coloredhighlight="0xc8d0ff00" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="91" name="Nets" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8e3e3e3" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8e3e3e3" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="92" name="Busses" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8d62525" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8d60000" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="93" name="Pins" blackcolor="0xdcbbbbbb" whitecolor="0xdcbbbbbb" coloredcolor="0xc839d437" blackhighlight="0xdcbbbbbb" whitehighlight="0xdcbbbbbb" coloredhighlight="0xc804d400" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="94" name="Symbols" blackcolor="0xdcfac36e" whitecolor="0xdcf57c10" coloredcolor="0xc8e6e600" blackhighlight="0xdcfa9600" whitehighlight="0xdcf57200" coloredhighlight="0xc8e6e600" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="95" name="Names" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc80067ce" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="96" name="Values" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc80067ce" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="97" name="Info" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc88500de" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="98" name="Guide" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc88500de" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="257" name="Route17" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="258" name="Route18" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="259" name="Route19" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="260" name="Route20" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="261" name="Route21" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="262" name="Route22" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="263" name="Route23" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="264" name="Route24" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="265" name="Route25" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="266" name="Route26" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="267" name="Route27" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="268" name="Route28" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="269" name="Route29" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="270" name="Route30" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="271" name="Route31" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="272" name="Route32" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="273" name="Route33" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="274" name="Route34" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="275" name="Route35" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="276" name="Route36" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="277" name="Route37" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="278" name="Route38" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="279" name="Route39" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="280" name="Route40" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="281" name="Route41" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="282" name="Route42" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="283" name="Route43" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="284" name="Route44" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="285" name="Route45" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="286" name="Route46" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="287" name="Route47" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="288" name="Route48" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="289" name="Route49" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xc8ff0033" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="290" name="Route50" blackcolor="0xc800bfbf" whitecolor="0xc800bfbf" coloredcolor="0xccffe74c" blackhighlight="0xc800bfbf" whitehighlight="0xc800bfbf" coloredhighlight="0xccffd900" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="291" name="Route51" blackcolor="0xc8faaf3c" whitecolor="0xc8faaf3c" coloredcolor="0xcc91d178" blackhighlight="0xc8fa9600" whitehighlight="0xc8fa9600" coloredhighlight="0xcc3bd100" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="292" name="Route52" blackcolor="0xc89fc966" whitecolor="0xc89fc966" coloredcolor="0xccffdda1" blackhighlight="0xc875c900" whitehighlight="0xc875c900" coloredhighlight="0xccffa200" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="293" name="Route53" blackcolor="0xc8a7bacf" whitecolor="0xc8a7bacf" coloredcolor="0xcc5fad56" blackhighlight="0xc80064cf" whitehighlight="0xc80064cf" coloredhighlight="0xcc14ad00" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="294" name="Route54" blackcolor="0xc8c5a1f8" whitecolor="0xc8c5a1f8" coloredcolor="0xcc5e897c" blackhighlight="0xc86300f8" whitehighlight="0xc86300f8" coloredhighlight="0xcc00895e" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="295" name="Route55" blackcolor="0xc8ff8cc6" whitecolor="0xc8ff8cc6" coloredcolor="0xcc6f45b4" blackhighlight="0xc8ff0084" whitehighlight="0xc8ff0084" coloredhighlight="0xcc4200b4" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="296" name="Route56" blackcolor="0xc8f26a52" whitecolor="0xc8f26a52" coloredcolor="0xcc516363" blackhighlight="0xc8f22400" whitehighlight="0xc8f22400" coloredhighlight="0xcc006363" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="297" name="Route57" blackcolor="0xc89bd5ef" whitecolor="0xc89bd5ef" coloredcolor="0xccd6a2ad" blackhighlight="0xc800a7ef" whitehighlight="0xc800a7ef" coloredhighlight="0xccd6002e" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="298" name="Route58" blackcolor="0xc8ffbeab" whitecolor="0xc8ffbeab" coloredcolor="0xccef476f" blackhighlight="0xc8ff3700" whitehighlight="0xc8ff3700" coloredhighlight="0xccef003c" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="299" name="Route59" blackcolor="0xc8e8430f" whitecolor="0xc8e8430f" coloredcolor="0xccd4dcff" blackhighlight="0xc8e83600" whitehighlight="0xc8e83600" coloredhighlight="0xcc0033ff" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="300" name="Route60" blackcolor="0xc8bb7a14" whitecolor="0xc8bb7a14" coloredcolor="0xcc00bfb2" blackhighlight="0xc8bb7000" whitehighlight="0xc8bb7000" coloredhighlight="0xcc00bfaf" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="301" name="Route61" blackcolor="0xc8658d30" whitecolor="0xc8658d30" coloredcolor="0xcc65def1" blackhighlight="0xc8528d00" whitehighlight="0xc8528d00" coloredhighlight="0xcc00d1f1" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="302" name="Route62" blackcolor="0xc823a597" whitecolor="0xc823a597" coloredcolor="0xccc55ea3" blackhighlight="0xc800a592" whitehighlight="0xc800a592" coloredhighlight="0xccc50087" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="303" name="Route63" blackcolor="0xc8a76ef5" whitecolor="0xc8a76ef5" coloredcolor="0xccf56416" blackhighlight="0xc86600f5" whitehighlight="0xc86600f5" coloredhighlight="0xccf55200" fill="1" visible="yes" active="yes" locked="no"/>
+<layer number="304" name="Bottom" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xc80097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="1" visible="yes" active="yes" locked="no"/>
 </layers>
 <library>
 <packages>
@@ -24337,10 +24337,1643 @@
 <pad name="C10_5V" x="26.4" y="-19.05" drill="0.6" diameter="1"/>
 <pad name="C11_5V" x="33" y="-19.05" drill="0.6" diameter="1"/>
 <pad name="C12_5V" x="39.6" y="-19.05" drill="0.6" diameter="1"/>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-38.05" y="14.4"/>
+<vertex x="-41.15" y="14.4"/>
+<vertex x="-41.95" y="13.6"/>
+<vertex x="-41.95" y="10.1"/>
+<vertex x="-41.15" y="9.3"/>
+<vertex x="-38.05" y="9.3"/>
+<vertex x="-37.25" y="10.1"/>
+<vertex x="-37.25" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-38.05" y="14.4"/>
+<vertex x="-41.15" y="14.4"/>
+<vertex x="-41.95" y="13.6"/>
+<vertex x="-41.95" y="10.1"/>
+<vertex x="-41.15" y="9.3"/>
+<vertex x="-38.05" y="9.3"/>
+<vertex x="-37.25" y="10.1"/>
+<vertex x="-37.25" y="13.6"/>
+<vertex x="-38.05" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-31.45" y="14.4"/>
+<vertex x="-34.55" y="14.4"/>
+<vertex x="-35.35" y="13.6"/>
+<vertex x="-35.35" y="10.1"/>
+<vertex x="-34.55" y="9.3"/>
+<vertex x="-31.45" y="9.3"/>
+<vertex x="-30.65" y="10.1"/>
+<vertex x="-30.65" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-31.45" y="14.4"/>
+<vertex x="-34.55" y="14.4"/>
+<vertex x="-35.35" y="13.6"/>
+<vertex x="-35.35" y="10.1"/>
+<vertex x="-34.55" y="9.3"/>
+<vertex x="-31.45" y="9.3"/>
+<vertex x="-30.65" y="10.1"/>
+<vertex x="-30.65" y="13.6"/>
+<vertex x="-31.45" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-24.85" y="14.4"/>
+<vertex x="-27.95" y="14.4"/>
+<vertex x="-28.75" y="13.6"/>
+<vertex x="-28.75" y="10.1"/>
+<vertex x="-27.95" y="9.3"/>
+<vertex x="-24.85" y="9.3"/>
+<vertex x="-24.05" y="10.1"/>
+<vertex x="-24.05" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-24.85" y="14.4"/>
+<vertex x="-27.95" y="14.4"/>
+<vertex x="-28.75" y="13.6"/>
+<vertex x="-28.75" y="10.1"/>
+<vertex x="-27.95" y="9.3"/>
+<vertex x="-24.85" y="9.3"/>
+<vertex x="-24.05" y="10.1"/>
+<vertex x="-24.05" y="13.6"/>
+<vertex x="-24.85" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-18.25" y="14.4"/>
+<vertex x="-21.35" y="14.4"/>
+<vertex x="-22.15" y="13.6"/>
+<vertex x="-22.15" y="10.1"/>
+<vertex x="-21.35" y="9.3"/>
+<vertex x="-18.25" y="9.3"/>
+<vertex x="-17.45" y="10.1"/>
+<vertex x="-17.45" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-18.25" y="14.4"/>
+<vertex x="-21.35" y="14.4"/>
+<vertex x="-22.15" y="13.6"/>
+<vertex x="-22.15" y="10.1"/>
+<vertex x="-21.35" y="9.3"/>
+<vertex x="-18.25" y="9.3"/>
+<vertex x="-17.45" y="10.1"/>
+<vertex x="-17.45" y="13.6"/>
+<vertex x="-18.25" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-11.65" y="14.4"/>
+<vertex x="-14.75" y="14.4"/>
+<vertex x="-15.55" y="13.6"/>
+<vertex x="-15.55" y="10.1"/>
+<vertex x="-14.75" y="9.3"/>
+<vertex x="-11.65" y="9.3"/>
+<vertex x="-10.85" y="10.1"/>
+<vertex x="-10.85" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-11.65" y="14.4"/>
+<vertex x="-14.75" y="14.4"/>
+<vertex x="-15.55" y="13.6"/>
+<vertex x="-15.55" y="10.1"/>
+<vertex x="-14.75" y="9.3"/>
+<vertex x="-11.65" y="9.3"/>
+<vertex x="-10.85" y="10.1"/>
+<vertex x="-10.85" y="13.6"/>
+<vertex x="-11.65" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-5.05" y="14.4"/>
+<vertex x="-8.15" y="14.4"/>
+<vertex x="-8.95" y="13.6"/>
+<vertex x="-8.95" y="10.1"/>
+<vertex x="-8.15" y="9.3"/>
+<vertex x="-5.05" y="9.3"/>
+<vertex x="-4.25" y="10.1"/>
+<vertex x="-4.25" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-5.05" y="14.4"/>
+<vertex x="-8.15" y="14.4"/>
+<vertex x="-8.95" y="13.6"/>
+<vertex x="-8.95" y="10.1"/>
+<vertex x="-8.15" y="9.3"/>
+<vertex x="-5.05" y="9.3"/>
+<vertex x="-4.25" y="10.1"/>
+<vertex x="-4.25" y="13.6"/>
+<vertex x="-5.05" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="1.55" y="14.4"/>
+<vertex x="-1.55" y="14.4"/>
+<vertex x="-2.35" y="13.6"/>
+<vertex x="-2.35" y="10.1"/>
+<vertex x="-1.55" y="9.3"/>
+<vertex x="1.55" y="9.3"/>
+<vertex x="2.35" y="10.1"/>
+<vertex x="2.35" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="1.55" y="14.4"/>
+<vertex x="-1.55" y="14.4"/>
+<vertex x="-2.35" y="13.6"/>
+<vertex x="-2.35" y="10.1"/>
+<vertex x="-1.55" y="9.3"/>
+<vertex x="1.55" y="9.3"/>
+<vertex x="2.35" y="10.1"/>
+<vertex x="2.35" y="13.6"/>
+<vertex x="1.55" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="8.15" y="14.4"/>
+<vertex x="5.05" y="14.4"/>
+<vertex x="4.25" y="13.6"/>
+<vertex x="4.25" y="10.1"/>
+<vertex x="5.05" y="9.3"/>
+<vertex x="8.15" y="9.3"/>
+<vertex x="8.95" y="10.1"/>
+<vertex x="8.95" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="8.15" y="14.4"/>
+<vertex x="5.05" y="14.4"/>
+<vertex x="4.25" y="13.6"/>
+<vertex x="4.25" y="10.1"/>
+<vertex x="5.05" y="9.3"/>
+<vertex x="8.15" y="9.3"/>
+<vertex x="8.95" y="10.1"/>
+<vertex x="8.95" y="13.6"/>
+<vertex x="8.15" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="14.75" y="14.4"/>
+<vertex x="11.65" y="14.4"/>
+<vertex x="10.85" y="13.6"/>
+<vertex x="10.85" y="10.1"/>
+<vertex x="11.65" y="9.3"/>
+<vertex x="14.75" y="9.3"/>
+<vertex x="15.55" y="10.1"/>
+<vertex x="15.55" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="14.75" y="14.4"/>
+<vertex x="11.65" y="14.4"/>
+<vertex x="10.85" y="13.6"/>
+<vertex x="10.85" y="10.1"/>
+<vertex x="11.65" y="9.3"/>
+<vertex x="14.75" y="9.3"/>
+<vertex x="15.55" y="10.1"/>
+<vertex x="15.55" y="13.6"/>
+<vertex x="14.75" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="21.35" y="14.4"/>
+<vertex x="18.25" y="14.4"/>
+<vertex x="17.45" y="13.6"/>
+<vertex x="17.45" y="10.1"/>
+<vertex x="18.25" y="9.3"/>
+<vertex x="21.35" y="9.3"/>
+<vertex x="22.15" y="10.1"/>
+<vertex x="22.15" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="21.35" y="14.4"/>
+<vertex x="18.25" y="14.4"/>
+<vertex x="17.45" y="13.6"/>
+<vertex x="17.45" y="10.1"/>
+<vertex x="18.25" y="9.3"/>
+<vertex x="21.35" y="9.3"/>
+<vertex x="22.15" y="10.1"/>
+<vertex x="22.15" y="13.6"/>
+<vertex x="21.35" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="27.95" y="14.4"/>
+<vertex x="24.85" y="14.4"/>
+<vertex x="24.05" y="13.6"/>
+<vertex x="24.05" y="10.1"/>
+<vertex x="24.85" y="9.3"/>
+<vertex x="27.95" y="9.3"/>
+<vertex x="28.75" y="10.1"/>
+<vertex x="28.75" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="27.95" y="14.4"/>
+<vertex x="24.85" y="14.4"/>
+<vertex x="24.05" y="13.6"/>
+<vertex x="24.05" y="10.1"/>
+<vertex x="24.85" y="9.3"/>
+<vertex x="27.95" y="9.3"/>
+<vertex x="28.75" y="10.1"/>
+<vertex x="28.75" y="13.6"/>
+<vertex x="27.95" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="34.55" y="14.4"/>
+<vertex x="31.45" y="14.4"/>
+<vertex x="30.65" y="13.6"/>
+<vertex x="30.65" y="10.1"/>
+<vertex x="31.45" y="9.3"/>
+<vertex x="34.55" y="9.3"/>
+<vertex x="35.35" y="10.1"/>
+<vertex x="35.35" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="34.55" y="14.4"/>
+<vertex x="31.45" y="14.4"/>
+<vertex x="30.65" y="13.6"/>
+<vertex x="30.65" y="10.1"/>
+<vertex x="31.45" y="9.3"/>
+<vertex x="34.55" y="9.3"/>
+<vertex x="35.35" y="10.1"/>
+<vertex x="35.35" y="13.6"/>
+<vertex x="34.55" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="41.15" y="14.4"/>
+<vertex x="38.05" y="14.4"/>
+<vertex x="37.25" y="13.6"/>
+<vertex x="37.25" y="10.1"/>
+<vertex x="38.05" y="9.3"/>
+<vertex x="41.15" y="9.3"/>
+<vertex x="41.95" y="10.1"/>
+<vertex x="41.95" y="13.6"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="41.15" y="14.4"/>
+<vertex x="38.05" y="14.4"/>
+<vertex x="37.25" y="13.6"/>
+<vertex x="37.25" y="10.1"/>
+<vertex x="38.05" y="9.3"/>
+<vertex x="41.15" y="9.3"/>
+<vertex x="41.95" y="10.1"/>
+<vertex x="41.95" y="13.6"/>
+<vertex x="41.15" y="14.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-38.05" y="6.5"/>
+<vertex x="-41.15" y="6.5"/>
+<vertex x="-41.95" y="5.7"/>
+<vertex x="-41.95" y="2.2"/>
+<vertex x="-41.15" y="1.4"/>
+<vertex x="-38.05" y="1.4"/>
+<vertex x="-37.25" y="2.2"/>
+<vertex x="-37.25" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-38.05" y="6.5"/>
+<vertex x="-41.15" y="6.5"/>
+<vertex x="-41.95" y="5.7"/>
+<vertex x="-41.95" y="2.2"/>
+<vertex x="-41.15" y="1.4"/>
+<vertex x="-38.05" y="1.4"/>
+<vertex x="-37.25" y="2.2"/>
+<vertex x="-37.25" y="5.7"/>
+<vertex x="-38.05" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-31.45" y="6.5"/>
+<vertex x="-34.55" y="6.5"/>
+<vertex x="-35.35" y="5.7"/>
+<vertex x="-35.35" y="2.2"/>
+<vertex x="-34.55" y="1.4"/>
+<vertex x="-31.45" y="1.4"/>
+<vertex x="-30.65" y="2.2"/>
+<vertex x="-30.65" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-31.45" y="6.5"/>
+<vertex x="-34.55" y="6.5"/>
+<vertex x="-35.35" y="5.7"/>
+<vertex x="-35.35" y="2.2"/>
+<vertex x="-34.55" y="1.4"/>
+<vertex x="-31.45" y="1.4"/>
+<vertex x="-30.65" y="2.2"/>
+<vertex x="-30.65" y="5.7"/>
+<vertex x="-31.45" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-24.85" y="6.5"/>
+<vertex x="-27.95" y="6.5"/>
+<vertex x="-28.75" y="5.7"/>
+<vertex x="-28.75" y="2.2"/>
+<vertex x="-27.95" y="1.4"/>
+<vertex x="-24.85" y="1.4"/>
+<vertex x="-24.05" y="2.2"/>
+<vertex x="-24.05" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-24.85" y="6.5"/>
+<vertex x="-27.95" y="6.5"/>
+<vertex x="-28.75" y="5.7"/>
+<vertex x="-28.75" y="2.2"/>
+<vertex x="-27.95" y="1.4"/>
+<vertex x="-24.85" y="1.4"/>
+<vertex x="-24.05" y="2.2"/>
+<vertex x="-24.05" y="5.7"/>
+<vertex x="-24.85" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-18.25" y="6.5"/>
+<vertex x="-21.35" y="6.5"/>
+<vertex x="-22.15" y="5.7"/>
+<vertex x="-22.15" y="2.2"/>
+<vertex x="-21.35" y="1.4"/>
+<vertex x="-18.25" y="1.4"/>
+<vertex x="-17.45" y="2.2"/>
+<vertex x="-17.45" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-18.25" y="6.5"/>
+<vertex x="-21.35" y="6.5"/>
+<vertex x="-22.15" y="5.7"/>
+<vertex x="-22.15" y="2.2"/>
+<vertex x="-21.35" y="1.4"/>
+<vertex x="-18.25" y="1.4"/>
+<vertex x="-17.45" y="2.2"/>
+<vertex x="-17.45" y="5.7"/>
+<vertex x="-18.25" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-11.65" y="6.5"/>
+<vertex x="-14.75" y="6.5"/>
+<vertex x="-15.55" y="5.7"/>
+<vertex x="-15.55" y="2.2"/>
+<vertex x="-14.75" y="1.4"/>
+<vertex x="-11.65" y="1.4"/>
+<vertex x="-10.85" y="2.2"/>
+<vertex x="-10.85" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-11.65" y="6.5"/>
+<vertex x="-14.75" y="6.5"/>
+<vertex x="-15.55" y="5.7"/>
+<vertex x="-15.55" y="2.2"/>
+<vertex x="-14.75" y="1.4"/>
+<vertex x="-11.65" y="1.4"/>
+<vertex x="-10.85" y="2.2"/>
+<vertex x="-10.85" y="5.7"/>
+<vertex x="-11.65" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-5.05" y="6.5"/>
+<vertex x="-8.15" y="6.5"/>
+<vertex x="-8.95" y="5.7"/>
+<vertex x="-8.95" y="2.2"/>
+<vertex x="-8.15" y="1.4"/>
+<vertex x="-5.05" y="1.4"/>
+<vertex x="-4.25" y="2.2"/>
+<vertex x="-4.25" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-5.05" y="6.5"/>
+<vertex x="-8.15" y="6.5"/>
+<vertex x="-8.95" y="5.7"/>
+<vertex x="-8.95" y="2.2"/>
+<vertex x="-8.15" y="1.4"/>
+<vertex x="-5.05" y="1.4"/>
+<vertex x="-4.25" y="2.2"/>
+<vertex x="-4.25" y="5.7"/>
+<vertex x="-5.05" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="1.55" y="6.5"/>
+<vertex x="-1.55" y="6.5"/>
+<vertex x="-2.35" y="5.7"/>
+<vertex x="-2.35" y="2.2"/>
+<vertex x="-1.55" y="1.4"/>
+<vertex x="1.55" y="1.4"/>
+<vertex x="2.35" y="2.2"/>
+<vertex x="2.35" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="1.55" y="6.5"/>
+<vertex x="-1.55" y="6.5"/>
+<vertex x="-2.35" y="5.7"/>
+<vertex x="-2.35" y="2.2"/>
+<vertex x="-1.55" y="1.4"/>
+<vertex x="1.55" y="1.4"/>
+<vertex x="2.35" y="2.2"/>
+<vertex x="2.35" y="5.7"/>
+<vertex x="1.55" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="8.15" y="6.5"/>
+<vertex x="5.05" y="6.5"/>
+<vertex x="4.25" y="5.7"/>
+<vertex x="4.25" y="2.2"/>
+<vertex x="5.05" y="1.4"/>
+<vertex x="8.15" y="1.4"/>
+<vertex x="8.95" y="2.2"/>
+<vertex x="8.95" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="8.15" y="6.5"/>
+<vertex x="5.05" y="6.5"/>
+<vertex x="4.25" y="5.7"/>
+<vertex x="4.25" y="2.2"/>
+<vertex x="5.05" y="1.4"/>
+<vertex x="8.15" y="1.4"/>
+<vertex x="8.95" y="2.2"/>
+<vertex x="8.95" y="5.7"/>
+<vertex x="8.15" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="14.75" y="6.5"/>
+<vertex x="11.65" y="6.5"/>
+<vertex x="10.85" y="5.7"/>
+<vertex x="10.85" y="2.2"/>
+<vertex x="11.65" y="1.4"/>
+<vertex x="14.75" y="1.4"/>
+<vertex x="15.55" y="2.2"/>
+<vertex x="15.55" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="14.75" y="6.5"/>
+<vertex x="11.65" y="6.5"/>
+<vertex x="10.85" y="5.7"/>
+<vertex x="10.85" y="2.2"/>
+<vertex x="11.65" y="1.4"/>
+<vertex x="14.75" y="1.4"/>
+<vertex x="15.55" y="2.2"/>
+<vertex x="15.55" y="5.7"/>
+<vertex x="14.75" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="21.35" y="6.5"/>
+<vertex x="18.25" y="6.5"/>
+<vertex x="17.45" y="5.7"/>
+<vertex x="17.45" y="2.2"/>
+<vertex x="18.25" y="1.4"/>
+<vertex x="21.35" y="1.4"/>
+<vertex x="22.15" y="2.2"/>
+<vertex x="22.15" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="21.35" y="6.5"/>
+<vertex x="18.25" y="6.5"/>
+<vertex x="17.45" y="5.7"/>
+<vertex x="17.45" y="2.2"/>
+<vertex x="18.25" y="1.4"/>
+<vertex x="21.35" y="1.4"/>
+<vertex x="22.15" y="2.2"/>
+<vertex x="22.15" y="5.7"/>
+<vertex x="21.35" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="27.95" y="6.5"/>
+<vertex x="24.85" y="6.5"/>
+<vertex x="24.05" y="5.7"/>
+<vertex x="24.05" y="2.2"/>
+<vertex x="24.85" y="1.4"/>
+<vertex x="27.95" y="1.4"/>
+<vertex x="28.75" y="2.2"/>
+<vertex x="28.75" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="27.95" y="6.5"/>
+<vertex x="24.85" y="6.5"/>
+<vertex x="24.05" y="5.7"/>
+<vertex x="24.05" y="2.2"/>
+<vertex x="24.85" y="1.4"/>
+<vertex x="27.95" y="1.4"/>
+<vertex x="28.75" y="2.2"/>
+<vertex x="28.75" y="5.7"/>
+<vertex x="27.95" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="34.55" y="6.5"/>
+<vertex x="31.45" y="6.5"/>
+<vertex x="30.65" y="5.7"/>
+<vertex x="30.65" y="2.2"/>
+<vertex x="31.45" y="1.4"/>
+<vertex x="34.55" y="1.4"/>
+<vertex x="35.35" y="2.2"/>
+<vertex x="35.35" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="34.55" y="6.5"/>
+<vertex x="31.45" y="6.5"/>
+<vertex x="30.65" y="5.7"/>
+<vertex x="30.65" y="2.2"/>
+<vertex x="31.45" y="1.4"/>
+<vertex x="34.55" y="1.4"/>
+<vertex x="35.35" y="2.2"/>
+<vertex x="35.35" y="5.7"/>
+<vertex x="34.55" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="41.15" y="6.5"/>
+<vertex x="38.05" y="6.5"/>
+<vertex x="37.25" y="5.7"/>
+<vertex x="37.25" y="2.2"/>
+<vertex x="38.05" y="1.4"/>
+<vertex x="41.15" y="1.4"/>
+<vertex x="41.95" y="2.2"/>
+<vertex x="41.95" y="5.7"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="41.15" y="6.5"/>
+<vertex x="38.05" y="6.5"/>
+<vertex x="37.25" y="5.7"/>
+<vertex x="37.25" y="2.2"/>
+<vertex x="38.05" y="1.4"/>
+<vertex x="41.15" y="1.4"/>
+<vertex x="41.95" y="2.2"/>
+<vertex x="41.95" y="5.7"/>
+<vertex x="41.15" y="6.5"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-38.05" y="-1.4"/>
+<vertex x="-41.15" y="-1.4"/>
+<vertex x="-41.95" y="-2.2"/>
+<vertex x="-41.95" y="-5.7"/>
+<vertex x="-41.15" y="-6.5"/>
+<vertex x="-38.05" y="-6.5"/>
+<vertex x="-37.25" y="-5.7"/>
+<vertex x="-37.25" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-38.05" y="-1.4"/>
+<vertex x="-41.15" y="-1.4"/>
+<vertex x="-41.95" y="-2.2"/>
+<vertex x="-41.95" y="-5.7"/>
+<vertex x="-41.15" y="-6.5"/>
+<vertex x="-38.05" y="-6.5"/>
+<vertex x="-37.25" y="-5.7"/>
+<vertex x="-37.25" y="-2.2"/>
+<vertex x="-38.05" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-31.45" y="-1.4"/>
+<vertex x="-34.55" y="-1.4"/>
+<vertex x="-35.35" y="-2.2"/>
+<vertex x="-35.35" y="-5.7"/>
+<vertex x="-34.55" y="-6.5"/>
+<vertex x="-31.45" y="-6.5"/>
+<vertex x="-30.65" y="-5.7"/>
+<vertex x="-30.65" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-31.45" y="-1.4"/>
+<vertex x="-34.55" y="-1.4"/>
+<vertex x="-35.35" y="-2.2"/>
+<vertex x="-35.35" y="-5.7"/>
+<vertex x="-34.55" y="-6.5"/>
+<vertex x="-31.45" y="-6.5"/>
+<vertex x="-30.65" y="-5.7"/>
+<vertex x="-30.65" y="-2.2"/>
+<vertex x="-31.45" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-24.85" y="-1.4"/>
+<vertex x="-27.95" y="-1.4"/>
+<vertex x="-28.75" y="-2.2"/>
+<vertex x="-28.75" y="-5.7"/>
+<vertex x="-27.95" y="-6.5"/>
+<vertex x="-24.85" y="-6.5"/>
+<vertex x="-24.05" y="-5.7"/>
+<vertex x="-24.05" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-24.85" y="-1.4"/>
+<vertex x="-27.95" y="-1.4"/>
+<vertex x="-28.75" y="-2.2"/>
+<vertex x="-28.75" y="-5.7"/>
+<vertex x="-27.95" y="-6.5"/>
+<vertex x="-24.85" y="-6.5"/>
+<vertex x="-24.05" y="-5.7"/>
+<vertex x="-24.05" y="-2.2"/>
+<vertex x="-24.85" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-18.25" y="-1.4"/>
+<vertex x="-21.35" y="-1.4"/>
+<vertex x="-22.15" y="-2.2"/>
+<vertex x="-22.15" y="-5.7"/>
+<vertex x="-21.35" y="-6.5"/>
+<vertex x="-18.25" y="-6.5"/>
+<vertex x="-17.45" y="-5.7"/>
+<vertex x="-17.45" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-18.25" y="-1.4"/>
+<vertex x="-21.35" y="-1.4"/>
+<vertex x="-22.15" y="-2.2"/>
+<vertex x="-22.15" y="-5.7"/>
+<vertex x="-21.35" y="-6.5"/>
+<vertex x="-18.25" y="-6.5"/>
+<vertex x="-17.45" y="-5.7"/>
+<vertex x="-17.45" y="-2.2"/>
+<vertex x="-18.25" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-11.65" y="-1.4"/>
+<vertex x="-14.75" y="-1.4"/>
+<vertex x="-15.55" y="-2.2"/>
+<vertex x="-15.55" y="-5.7"/>
+<vertex x="-14.75" y="-6.5"/>
+<vertex x="-11.65" y="-6.5"/>
+<vertex x="-10.85" y="-5.7"/>
+<vertex x="-10.85" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-11.65" y="-1.4"/>
+<vertex x="-14.75" y="-1.4"/>
+<vertex x="-15.55" y="-2.2"/>
+<vertex x="-15.55" y="-5.7"/>
+<vertex x="-14.75" y="-6.5"/>
+<vertex x="-11.65" y="-6.5"/>
+<vertex x="-10.85" y="-5.7"/>
+<vertex x="-10.85" y="-2.2"/>
+<vertex x="-11.65" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-5.05" y="-1.4"/>
+<vertex x="-8.15" y="-1.4"/>
+<vertex x="-8.95" y="-2.2"/>
+<vertex x="-8.95" y="-5.7"/>
+<vertex x="-8.15" y="-6.5"/>
+<vertex x="-5.05" y="-6.5"/>
+<vertex x="-4.25" y="-5.7"/>
+<vertex x="-4.25" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-5.05" y="-1.4"/>
+<vertex x="-8.15" y="-1.4"/>
+<vertex x="-8.95" y="-2.2"/>
+<vertex x="-8.95" y="-5.7"/>
+<vertex x="-8.15" y="-6.5"/>
+<vertex x="-5.05" y="-6.5"/>
+<vertex x="-4.25" y="-5.7"/>
+<vertex x="-4.25" y="-2.2"/>
+<vertex x="-5.05" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="1.55" y="-1.4"/>
+<vertex x="-1.55" y="-1.4"/>
+<vertex x="-2.35" y="-2.2"/>
+<vertex x="-2.35" y="-5.7"/>
+<vertex x="-1.55" y="-6.5"/>
+<vertex x="1.55" y="-6.5"/>
+<vertex x="2.35" y="-5.7"/>
+<vertex x="2.35" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="1.55" y="-1.4"/>
+<vertex x="-1.55" y="-1.4"/>
+<vertex x="-2.35" y="-2.2"/>
+<vertex x="-2.35" y="-5.7"/>
+<vertex x="-1.55" y="-6.5"/>
+<vertex x="1.55" y="-6.5"/>
+<vertex x="2.35" y="-5.7"/>
+<vertex x="2.35" y="-2.2"/>
+<vertex x="1.55" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="8.15" y="-1.4"/>
+<vertex x="5.05" y="-1.4"/>
+<vertex x="4.25" y="-2.2"/>
+<vertex x="4.25" y="-5.7"/>
+<vertex x="5.05" y="-6.5"/>
+<vertex x="8.15" y="-6.5"/>
+<vertex x="8.95" y="-5.7"/>
+<vertex x="8.95" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="8.15" y="-1.4"/>
+<vertex x="5.05" y="-1.4"/>
+<vertex x="4.25" y="-2.2"/>
+<vertex x="4.25" y="-5.7"/>
+<vertex x="5.05" y="-6.5"/>
+<vertex x="8.15" y="-6.5"/>
+<vertex x="8.95" y="-5.7"/>
+<vertex x="8.95" y="-2.2"/>
+<vertex x="8.15" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="14.75" y="-1.4"/>
+<vertex x="11.65" y="-1.4"/>
+<vertex x="10.85" y="-2.2"/>
+<vertex x="10.85" y="-5.7"/>
+<vertex x="11.65" y="-6.5"/>
+<vertex x="14.75" y="-6.5"/>
+<vertex x="15.55" y="-5.7"/>
+<vertex x="15.55" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="14.75" y="-1.4"/>
+<vertex x="11.65" y="-1.4"/>
+<vertex x="10.85" y="-2.2"/>
+<vertex x="10.85" y="-5.7"/>
+<vertex x="11.65" y="-6.5"/>
+<vertex x="14.75" y="-6.5"/>
+<vertex x="15.55" y="-5.7"/>
+<vertex x="15.55" y="-2.2"/>
+<vertex x="14.75" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="21.35" y="-1.4"/>
+<vertex x="18.25" y="-1.4"/>
+<vertex x="17.45" y="-2.2"/>
+<vertex x="17.45" y="-5.7"/>
+<vertex x="18.25" y="-6.5"/>
+<vertex x="21.35" y="-6.5"/>
+<vertex x="22.15" y="-5.7"/>
+<vertex x="22.15" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="21.35" y="-1.4"/>
+<vertex x="18.25" y="-1.4"/>
+<vertex x="17.45" y="-2.2"/>
+<vertex x="17.45" y="-5.7"/>
+<vertex x="18.25" y="-6.5"/>
+<vertex x="21.35" y="-6.5"/>
+<vertex x="22.15" y="-5.7"/>
+<vertex x="22.15" y="-2.2"/>
+<vertex x="21.35" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="27.95" y="-1.4"/>
+<vertex x="24.85" y="-1.4"/>
+<vertex x="24.05" y="-2.2"/>
+<vertex x="24.05" y="-5.7"/>
+<vertex x="24.85" y="-6.5"/>
+<vertex x="27.95" y="-6.5"/>
+<vertex x="28.75" y="-5.7"/>
+<vertex x="28.75" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="27.95" y="-1.4"/>
+<vertex x="24.85" y="-1.4"/>
+<vertex x="24.05" y="-2.2"/>
+<vertex x="24.05" y="-5.7"/>
+<vertex x="24.85" y="-6.5"/>
+<vertex x="27.95" y="-6.5"/>
+<vertex x="28.75" y="-5.7"/>
+<vertex x="28.75" y="-2.2"/>
+<vertex x="27.95" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="34.55" y="-1.4"/>
+<vertex x="31.45" y="-1.4"/>
+<vertex x="30.65" y="-2.2"/>
+<vertex x="30.65" y="-5.7"/>
+<vertex x="31.45" y="-6.5"/>
+<vertex x="34.55" y="-6.5"/>
+<vertex x="35.35" y="-5.7"/>
+<vertex x="35.35" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="34.55" y="-1.4"/>
+<vertex x="31.45" y="-1.4"/>
+<vertex x="30.65" y="-2.2"/>
+<vertex x="30.65" y="-5.7"/>
+<vertex x="31.45" y="-6.5"/>
+<vertex x="34.55" y="-6.5"/>
+<vertex x="35.35" y="-5.7"/>
+<vertex x="35.35" y="-2.2"/>
+<vertex x="34.55" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="41.15" y="-1.4"/>
+<vertex x="38.05" y="-1.4"/>
+<vertex x="37.25" y="-2.2"/>
+<vertex x="37.25" y="-5.7"/>
+<vertex x="38.05" y="-6.5"/>
+<vertex x="41.15" y="-6.5"/>
+<vertex x="41.95" y="-5.7"/>
+<vertex x="41.95" y="-2.2"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="41.15" y="-1.4"/>
+<vertex x="38.05" y="-1.4"/>
+<vertex x="37.25" y="-2.2"/>
+<vertex x="37.25" y="-5.7"/>
+<vertex x="38.05" y="-6.5"/>
+<vertex x="41.15" y="-6.5"/>
+<vertex x="41.95" y="-5.7"/>
+<vertex x="41.95" y="-2.2"/>
+<vertex x="41.15" y="-1.4"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-38.05" y="-9.3"/>
+<vertex x="-41.15" y="-9.3"/>
+<vertex x="-41.95" y="-10.1"/>
+<vertex x="-41.95" y="-13.6"/>
+<vertex x="-41.15" y="-14.4"/>
+<vertex x="-38.05" y="-14.4"/>
+<vertex x="-37.25" y="-13.6"/>
+<vertex x="-37.25" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-38.05" y="-9.3"/>
+<vertex x="-41.15" y="-9.3"/>
+<vertex x="-41.95" y="-10.1"/>
+<vertex x="-41.95" y="-13.6"/>
+<vertex x="-41.15" y="-14.4"/>
+<vertex x="-38.05" y="-14.4"/>
+<vertex x="-37.25" y="-13.6"/>
+<vertex x="-37.25" y="-10.1"/>
+<vertex x="-38.05" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-31.45" y="-9.3"/>
+<vertex x="-34.55" y="-9.3"/>
+<vertex x="-35.35" y="-10.1"/>
+<vertex x="-35.35" y="-13.6"/>
+<vertex x="-34.55" y="-14.4"/>
+<vertex x="-31.45" y="-14.4"/>
+<vertex x="-30.65" y="-13.6"/>
+<vertex x="-30.65" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-31.45" y="-9.3"/>
+<vertex x="-34.55" y="-9.3"/>
+<vertex x="-35.35" y="-10.1"/>
+<vertex x="-35.35" y="-13.6"/>
+<vertex x="-34.55" y="-14.4"/>
+<vertex x="-31.45" y="-14.4"/>
+<vertex x="-30.65" y="-13.6"/>
+<vertex x="-30.65" y="-10.1"/>
+<vertex x="-31.45" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-24.85" y="-9.3"/>
+<vertex x="-27.95" y="-9.3"/>
+<vertex x="-28.75" y="-10.1"/>
+<vertex x="-28.75" y="-13.6"/>
+<vertex x="-27.95" y="-14.4"/>
+<vertex x="-24.85" y="-14.4"/>
+<vertex x="-24.05" y="-13.6"/>
+<vertex x="-24.05" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-24.85" y="-9.3"/>
+<vertex x="-27.95" y="-9.3"/>
+<vertex x="-28.75" y="-10.1"/>
+<vertex x="-28.75" y="-13.6"/>
+<vertex x="-27.95" y="-14.4"/>
+<vertex x="-24.85" y="-14.4"/>
+<vertex x="-24.05" y="-13.6"/>
+<vertex x="-24.05" y="-10.1"/>
+<vertex x="-24.85" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-18.25" y="-9.3"/>
+<vertex x="-21.35" y="-9.3"/>
+<vertex x="-22.15" y="-10.1"/>
+<vertex x="-22.15" y="-13.6"/>
+<vertex x="-21.35" y="-14.4"/>
+<vertex x="-18.25" y="-14.4"/>
+<vertex x="-17.45" y="-13.6"/>
+<vertex x="-17.45" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-18.25" y="-9.3"/>
+<vertex x="-21.35" y="-9.3"/>
+<vertex x="-22.15" y="-10.1"/>
+<vertex x="-22.15" y="-13.6"/>
+<vertex x="-21.35" y="-14.4"/>
+<vertex x="-18.25" y="-14.4"/>
+<vertex x="-17.45" y="-13.6"/>
+<vertex x="-17.45" y="-10.1"/>
+<vertex x="-18.25" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-11.65" y="-9.3"/>
+<vertex x="-14.75" y="-9.3"/>
+<vertex x="-15.55" y="-10.1"/>
+<vertex x="-15.55" y="-13.6"/>
+<vertex x="-14.75" y="-14.4"/>
+<vertex x="-11.65" y="-14.4"/>
+<vertex x="-10.85" y="-13.6"/>
+<vertex x="-10.85" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-11.65" y="-9.3"/>
+<vertex x="-14.75" y="-9.3"/>
+<vertex x="-15.55" y="-10.1"/>
+<vertex x="-15.55" y="-13.6"/>
+<vertex x="-14.75" y="-14.4"/>
+<vertex x="-11.65" y="-14.4"/>
+<vertex x="-10.85" y="-13.6"/>
+<vertex x="-10.85" y="-10.1"/>
+<vertex x="-11.65" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-5.05" y="-9.3"/>
+<vertex x="-8.15" y="-9.3"/>
+<vertex x="-8.95" y="-10.1"/>
+<vertex x="-8.95" y="-13.6"/>
+<vertex x="-8.15" y="-14.4"/>
+<vertex x="-5.05" y="-14.4"/>
+<vertex x="-4.25" y="-13.6"/>
+<vertex x="-4.25" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-5.05" y="-9.3"/>
+<vertex x="-8.15" y="-9.3"/>
+<vertex x="-8.95" y="-10.1"/>
+<vertex x="-8.95" y="-13.6"/>
+<vertex x="-8.15" y="-14.4"/>
+<vertex x="-5.05" y="-14.4"/>
+<vertex x="-4.25" y="-13.6"/>
+<vertex x="-4.25" y="-10.1"/>
+<vertex x="-5.05" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="1.55" y="-9.3"/>
+<vertex x="-1.55" y="-9.3"/>
+<vertex x="-2.35" y="-10.1"/>
+<vertex x="-2.35" y="-13.6"/>
+<vertex x="-1.55" y="-14.4"/>
+<vertex x="1.55" y="-14.4"/>
+<vertex x="2.35" y="-13.6"/>
+<vertex x="2.35" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="1.55" y="-9.3"/>
+<vertex x="-1.55" y="-9.3"/>
+<vertex x="-2.35" y="-10.1"/>
+<vertex x="-2.35" y="-13.6"/>
+<vertex x="-1.55" y="-14.4"/>
+<vertex x="1.55" y="-14.4"/>
+<vertex x="2.35" y="-13.6"/>
+<vertex x="2.35" y="-10.1"/>
+<vertex x="1.55" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="8.15" y="-9.3"/>
+<vertex x="5.05" y="-9.3"/>
+<vertex x="4.25" y="-10.1"/>
+<vertex x="4.25" y="-13.6"/>
+<vertex x="5.05" y="-14.4"/>
+<vertex x="8.15" y="-14.4"/>
+<vertex x="8.95" y="-13.6"/>
+<vertex x="8.95" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="8.15" y="-9.3"/>
+<vertex x="5.05" y="-9.3"/>
+<vertex x="4.25" y="-10.1"/>
+<vertex x="4.25" y="-13.6"/>
+<vertex x="5.05" y="-14.4"/>
+<vertex x="8.15" y="-14.4"/>
+<vertex x="8.95" y="-13.6"/>
+<vertex x="8.95" y="-10.1"/>
+<vertex x="8.15" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="14.75" y="-9.3"/>
+<vertex x="11.65" y="-9.3"/>
+<vertex x="10.85" y="-10.1"/>
+<vertex x="10.85" y="-13.6"/>
+<vertex x="11.65" y="-14.4"/>
+<vertex x="14.75" y="-14.4"/>
+<vertex x="15.55" y="-13.6"/>
+<vertex x="15.55" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="14.75" y="-9.3"/>
+<vertex x="11.65" y="-9.3"/>
+<vertex x="10.85" y="-10.1"/>
+<vertex x="10.85" y="-13.6"/>
+<vertex x="11.65" y="-14.4"/>
+<vertex x="14.75" y="-14.4"/>
+<vertex x="15.55" y="-13.6"/>
+<vertex x="15.55" y="-10.1"/>
+<vertex x="14.75" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="21.35" y="-9.3"/>
+<vertex x="18.25" y="-9.3"/>
+<vertex x="17.45" y="-10.1"/>
+<vertex x="17.45" y="-13.6"/>
+<vertex x="18.25" y="-14.4"/>
+<vertex x="21.35" y="-14.4"/>
+<vertex x="22.15" y="-13.6"/>
+<vertex x="22.15" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="21.35" y="-9.3"/>
+<vertex x="18.25" y="-9.3"/>
+<vertex x="17.45" y="-10.1"/>
+<vertex x="17.45" y="-13.6"/>
+<vertex x="18.25" y="-14.4"/>
+<vertex x="21.35" y="-14.4"/>
+<vertex x="22.15" y="-13.6"/>
+<vertex x="22.15" y="-10.1"/>
+<vertex x="21.35" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="27.95" y="-9.3"/>
+<vertex x="24.85" y="-9.3"/>
+<vertex x="24.05" y="-10.1"/>
+<vertex x="24.05" y="-13.6"/>
+<vertex x="24.85" y="-14.4"/>
+<vertex x="27.95" y="-14.4"/>
+<vertex x="28.75" y="-13.6"/>
+<vertex x="28.75" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="27.95" y="-9.3"/>
+<vertex x="24.85" y="-9.3"/>
+<vertex x="24.05" y="-10.1"/>
+<vertex x="24.05" y="-13.6"/>
+<vertex x="24.85" y="-14.4"/>
+<vertex x="27.95" y="-14.4"/>
+<vertex x="28.75" y="-13.6"/>
+<vertex x="28.75" y="-10.1"/>
+<vertex x="27.95" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="34.55" y="-9.3"/>
+<vertex x="31.45" y="-9.3"/>
+<vertex x="30.65" y="-10.1"/>
+<vertex x="30.65" y="-13.6"/>
+<vertex x="31.45" y="-14.4"/>
+<vertex x="34.55" y="-14.4"/>
+<vertex x="35.35" y="-13.6"/>
+<vertex x="35.35" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="34.55" y="-9.3"/>
+<vertex x="31.45" y="-9.3"/>
+<vertex x="30.65" y="-10.1"/>
+<vertex x="30.65" y="-13.6"/>
+<vertex x="31.45" y="-14.4"/>
+<vertex x="34.55" y="-14.4"/>
+<vertex x="35.35" y="-13.6"/>
+<vertex x="35.35" y="-10.1"/>
+<vertex x="34.55" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="41.15" y="-9.3"/>
+<vertex x="38.05" y="-9.3"/>
+<vertex x="37.25" y="-10.1"/>
+<vertex x="37.25" y="-13.6"/>
+<vertex x="38.05" y="-14.4"/>
+<vertex x="41.15" y="-14.4"/>
+<vertex x="41.95" y="-13.6"/>
+<vertex x="41.95" y="-10.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="41.15" y="-9.3"/>
+<vertex x="38.05" y="-9.3"/>
+<vertex x="37.25" y="-10.1"/>
+<vertex x="37.25" y="-13.6"/>
+<vertex x="38.05" y="-14.4"/>
+<vertex x="41.15" y="-14.4"/>
+<vertex x="41.95" y="-13.6"/>
+<vertex x="41.95" y="-10.1"/>
+<vertex x="41.15" y="-9.3"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-38.05" y="-17.2"/>
+<vertex x="-41.15" y="-17.2"/>
+<vertex x="-41.95" y="-18"/>
+<vertex x="-41.95" y="-21.5"/>
+<vertex x="-41.15" y="-22.3"/>
+<vertex x="-38.05" y="-22.3"/>
+<vertex x="-37.25" y="-21.5"/>
+<vertex x="-37.25" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-38.05" y="-17.2"/>
+<vertex x="-41.15" y="-17.2"/>
+<vertex x="-41.95" y="-18"/>
+<vertex x="-41.95" y="-21.5"/>
+<vertex x="-41.15" y="-22.3"/>
+<vertex x="-38.05" y="-22.3"/>
+<vertex x="-37.25" y="-21.5"/>
+<vertex x="-37.25" y="-18"/>
+<vertex x="-38.05" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-31.45" y="-17.2"/>
+<vertex x="-34.55" y="-17.2"/>
+<vertex x="-35.35" y="-18"/>
+<vertex x="-35.35" y="-21.5"/>
+<vertex x="-34.55" y="-22.3"/>
+<vertex x="-31.45" y="-22.3"/>
+<vertex x="-30.65" y="-21.5"/>
+<vertex x="-30.65" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-31.45" y="-17.2"/>
+<vertex x="-34.55" y="-17.2"/>
+<vertex x="-35.35" y="-18"/>
+<vertex x="-35.35" y="-21.5"/>
+<vertex x="-34.55" y="-22.3"/>
+<vertex x="-31.45" y="-22.3"/>
+<vertex x="-30.65" y="-21.5"/>
+<vertex x="-30.65" y="-18"/>
+<vertex x="-31.45" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-24.85" y="-17.2"/>
+<vertex x="-27.95" y="-17.2"/>
+<vertex x="-28.75" y="-18"/>
+<vertex x="-28.75" y="-21.5"/>
+<vertex x="-27.95" y="-22.3"/>
+<vertex x="-24.85" y="-22.3"/>
+<vertex x="-24.05" y="-21.5"/>
+<vertex x="-24.05" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-24.85" y="-17.2"/>
+<vertex x="-27.95" y="-17.2"/>
+<vertex x="-28.75" y="-18"/>
+<vertex x="-28.75" y="-21.5"/>
+<vertex x="-27.95" y="-22.3"/>
+<vertex x="-24.85" y="-22.3"/>
+<vertex x="-24.05" y="-21.5"/>
+<vertex x="-24.05" y="-18"/>
+<vertex x="-24.85" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-18.25" y="-17.2"/>
+<vertex x="-21.35" y="-17.2"/>
+<vertex x="-22.15" y="-18"/>
+<vertex x="-22.15" y="-21.5"/>
+<vertex x="-21.35" y="-22.3"/>
+<vertex x="-18.25" y="-22.3"/>
+<vertex x="-17.45" y="-21.5"/>
+<vertex x="-17.45" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-18.25" y="-17.2"/>
+<vertex x="-21.35" y="-17.2"/>
+<vertex x="-22.15" y="-18"/>
+<vertex x="-22.15" y="-21.5"/>
+<vertex x="-21.35" y="-22.3"/>
+<vertex x="-18.25" y="-22.3"/>
+<vertex x="-17.45" y="-21.5"/>
+<vertex x="-17.45" y="-18"/>
+<vertex x="-18.25" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-8.35" y="-17.2"/>
+<vertex x="-11.45" y="-17.2"/>
+<vertex x="-12.25" y="-18"/>
+<vertex x="-12.25" y="-21.5"/>
+<vertex x="-11.45" y="-22.3"/>
+<vertex x="-8.35" y="-22.3"/>
+<vertex x="-7.55" y="-21.5"/>
+<vertex x="-7.55" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-8.35" y="-17.2"/>
+<vertex x="-11.45" y="-17.2"/>
+<vertex x="-12.25" y="-18"/>
+<vertex x="-12.25" y="-21.5"/>
+<vertex x="-11.45" y="-22.3"/>
+<vertex x="-8.35" y="-22.3"/>
+<vertex x="-7.55" y="-21.5"/>
+<vertex x="-7.55" y="-18"/>
+<vertex x="-8.35" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="1.55" y="-17.2"/>
+<vertex x="-1.55" y="-17.2"/>
+<vertex x="-2.35" y="-18"/>
+<vertex x="-2.35" y="-21.5"/>
+<vertex x="-1.55" y="-22.3"/>
+<vertex x="1.55" y="-22.3"/>
+<vertex x="2.35" y="-21.5"/>
+<vertex x="2.35" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="1.55" y="-17.2"/>
+<vertex x="-1.55" y="-17.2"/>
+<vertex x="-2.35" y="-18"/>
+<vertex x="-2.35" y="-21.5"/>
+<vertex x="-1.55" y="-22.3"/>
+<vertex x="1.55" y="-22.3"/>
+<vertex x="2.35" y="-21.5"/>
+<vertex x="2.35" y="-18"/>
+<vertex x="1.55" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="11.45" y="-17.2"/>
+<vertex x="8.35" y="-17.2"/>
+<vertex x="7.55" y="-18"/>
+<vertex x="7.55" y="-21.5"/>
+<vertex x="8.35" y="-22.3"/>
+<vertex x="11.45" y="-22.3"/>
+<vertex x="12.25" y="-21.5"/>
+<vertex x="12.25" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="11.45" y="-17.2"/>
+<vertex x="8.35" y="-17.2"/>
+<vertex x="7.55" y="-18"/>
+<vertex x="7.55" y="-21.5"/>
+<vertex x="8.35" y="-22.3"/>
+<vertex x="11.45" y="-22.3"/>
+<vertex x="12.25" y="-21.5"/>
+<vertex x="12.25" y="-18"/>
+<vertex x="11.45" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="21.35" y="-17.2"/>
+<vertex x="18.25" y="-17.2"/>
+<vertex x="17.45" y="-18"/>
+<vertex x="17.45" y="-21.5"/>
+<vertex x="18.25" y="-22.3"/>
+<vertex x="21.35" y="-22.3"/>
+<vertex x="22.15" y="-21.5"/>
+<vertex x="22.15" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="21.35" y="-17.2"/>
+<vertex x="18.25" y="-17.2"/>
+<vertex x="17.45" y="-18"/>
+<vertex x="17.45" y="-21.5"/>
+<vertex x="18.25" y="-22.3"/>
+<vertex x="21.35" y="-22.3"/>
+<vertex x="22.15" y="-21.5"/>
+<vertex x="22.15" y="-18"/>
+<vertex x="21.35" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="27.95" y="-17.2"/>
+<vertex x="24.85" y="-17.2"/>
+<vertex x="24.05" y="-18"/>
+<vertex x="24.05" y="-21.5"/>
+<vertex x="24.85" y="-22.3"/>
+<vertex x="27.95" y="-22.3"/>
+<vertex x="28.75" y="-21.5"/>
+<vertex x="28.75" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="27.95" y="-17.2"/>
+<vertex x="24.85" y="-17.2"/>
+<vertex x="24.05" y="-18"/>
+<vertex x="24.05" y="-21.5"/>
+<vertex x="24.85" y="-22.3"/>
+<vertex x="27.95" y="-22.3"/>
+<vertex x="28.75" y="-21.5"/>
+<vertex x="28.75" y="-18"/>
+<vertex x="27.95" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="34.55" y="-17.2"/>
+<vertex x="31.45" y="-17.2"/>
+<vertex x="30.65" y="-18"/>
+<vertex x="30.65" y="-21.5"/>
+<vertex x="31.45" y="-22.3"/>
+<vertex x="34.55" y="-22.3"/>
+<vertex x="35.35" y="-21.5"/>
+<vertex x="35.35" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="34.55" y="-17.2"/>
+<vertex x="31.45" y="-17.2"/>
+<vertex x="30.65" y="-18"/>
+<vertex x="30.65" y="-21.5"/>
+<vertex x="31.45" y="-22.3"/>
+<vertex x="34.55" y="-22.3"/>
+<vertex x="35.35" y="-21.5"/>
+<vertex x="35.35" y="-18"/>
+<vertex x="34.55" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="41.15" y="-17.2"/>
+<vertex x="38.05" y="-17.2"/>
+<vertex x="37.25" y="-18"/>
+<vertex x="37.25" y="-21.5"/>
+<vertex x="38.05" y="-22.3"/>
+<vertex x="41.15" y="-22.3"/>
+<vertex x="41.95" y="-21.5"/>
+<vertex x="41.95" y="-18"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="41.15" y="-17.2"/>
+<vertex x="38.05" y="-17.2"/>
+<vertex x="37.25" y="-18"/>
+<vertex x="37.25" y="-21.5"/>
+<vertex x="38.05" y="-22.3"/>
+<vertex x="41.15" y="-22.3"/>
+<vertex x="41.95" y="-21.5"/>
+<vertex x="41.95" y="-18"/>
+<vertex x="41.15" y="-17.2"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-36.5" y="22.9"/>
+<vertex x="-39.6" y="22.9"/>
+<vertex x="-40.4" y="22.1"/>
+<vertex x="-40.4" y="18.6"/>
+<vertex x="-39.6" y="17.8"/>
+<vertex x="-36.5" y="17.8"/>
+<vertex x="-35.7" y="18.6"/>
+<vertex x="-35.7" y="22.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-36.5" y="22.9"/>
+<vertex x="-39.6" y="22.9"/>
+<vertex x="-40.4" y="22.1"/>
+<vertex x="-40.4" y="18.6"/>
+<vertex x="-39.6" y="17.8"/>
+<vertex x="-36.5" y="17.8"/>
+<vertex x="-35.7" y="18.6"/>
+<vertex x="-35.7" y="22.1"/>
+<vertex x="-36.5" y="22.9"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-26.825" y="22.9"/>
+<vertex x="-29.925" y="22.9"/>
+<vertex x="-30.725" y="22.1"/>
+<vertex x="-30.725" y="18.6"/>
+<vertex x="-29.925" y="17.8"/>
+<vertex x="-26.825" y="17.8"/>
+<vertex x="-26.025" y="18.6"/>
+<vertex x="-26.025" y="22.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-26.825" y="22.9"/>
+<vertex x="-29.925" y="22.9"/>
+<vertex x="-30.725" y="22.1"/>
+<vertex x="-30.725" y="18.6"/>
+<vertex x="-29.925" y="17.8"/>
+<vertex x="-26.825" y="17.8"/>
+<vertex x="-26.025" y="18.6"/>
+<vertex x="-26.025" y="22.1"/>
+<vertex x="-26.825" y="22.9"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-17.15" y="22.9"/>
+<vertex x="-20.25" y="22.9"/>
+<vertex x="-21.05" y="22.1"/>
+<vertex x="-21.05" y="18.6"/>
+<vertex x="-20.25" y="17.8"/>
+<vertex x="-17.15" y="17.8"/>
+<vertex x="-16.35" y="18.6"/>
+<vertex x="-16.35" y="22.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-17.15" y="22.9"/>
+<vertex x="-20.25" y="22.9"/>
+<vertex x="-21.05" y="22.1"/>
+<vertex x="-21.05" y="18.6"/>
+<vertex x="-20.25" y="17.8"/>
+<vertex x="-17.15" y="17.8"/>
+<vertex x="-16.35" y="18.6"/>
+<vertex x="-16.35" y="22.1"/>
+<vertex x="-17.15" y="22.9"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="-7.475" y="22.9"/>
+<vertex x="-10.575" y="22.9"/>
+<vertex x="-11.375" y="22.1"/>
+<vertex x="-11.375" y="18.6"/>
+<vertex x="-10.575" y="17.8"/>
+<vertex x="-7.475" y="17.8"/>
+<vertex x="-6.675" y="18.6"/>
+<vertex x="-6.675" y="22.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="-7.475" y="22.9"/>
+<vertex x="-10.575" y="22.9"/>
+<vertex x="-11.375" y="22.1"/>
+<vertex x="-11.375" y="18.6"/>
+<vertex x="-10.575" y="17.8"/>
+<vertex x="-7.475" y="17.8"/>
+<vertex x="-6.675" y="18.6"/>
+<vertex x="-6.675" y="22.1"/>
+<vertex x="-7.475" y="22.9"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="10.6" y="22.9"/>
+<vertex x="7.5" y="22.9"/>
+<vertex x="6.7" y="22.1"/>
+<vertex x="6.7" y="18.6"/>
+<vertex x="7.5" y="17.8"/>
+<vertex x="10.6" y="17.8"/>
+<vertex x="11.4" y="18.6"/>
+<vertex x="11.4" y="22.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="10.6" y="22.9"/>
+<vertex x="7.5" y="22.9"/>
+<vertex x="6.7" y="22.1"/>
+<vertex x="6.7" y="18.6"/>
+<vertex x="7.5" y="17.8"/>
+<vertex x="10.6" y="17.8"/>
+<vertex x="11.4" y="18.6"/>
+<vertex x="11.4" y="22.1"/>
+<vertex x="10.6" y="22.9"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="20.275" y="22.9"/>
+<vertex x="17.175" y="22.9"/>
+<vertex x="16.375" y="22.1"/>
+<vertex x="16.375" y="18.6"/>
+<vertex x="17.175" y="17.8"/>
+<vertex x="20.275" y="17.8"/>
+<vertex x="21.075" y="18.6"/>
+<vertex x="21.075" y="22.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="20.275" y="22.9"/>
+<vertex x="17.175" y="22.9"/>
+<vertex x="16.375" y="22.1"/>
+<vertex x="16.375" y="18.6"/>
+<vertex x="17.175" y="17.8"/>
+<vertex x="20.275" y="17.8"/>
+<vertex x="21.075" y="18.6"/>
+<vertex x="21.075" y="22.1"/>
+<vertex x="20.275" y="22.9"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="29.95" y="22.9"/>
+<vertex x="26.85" y="22.9"/>
+<vertex x="26.05" y="22.1"/>
+<vertex x="26.05" y="18.6"/>
+<vertex x="26.85" y="17.8"/>
+<vertex x="29.95" y="17.8"/>
+<vertex x="30.75" y="18.6"/>
+<vertex x="30.75" y="22.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="29.95" y="22.9"/>
+<vertex x="26.85" y="22.9"/>
+<vertex x="26.05" y="22.1"/>
+<vertex x="26.05" y="18.6"/>
+<vertex x="26.85" y="17.8"/>
+<vertex x="29.95" y="17.8"/>
+<vertex x="30.75" y="18.6"/>
+<vertex x="30.75" y="22.1"/>
+<vertex x="29.95" y="22.9"/>
+</polygonoutlinesegments>
+</polygoncutout>
+<polygoncutout layer="1">
+<polygonoutlineobjects>
+<vertex x="39.625" y="22.9"/>
+<vertex x="36.525" y="22.9"/>
+<vertex x="35.725" y="22.1"/>
+<vertex x="35.725" y="18.6"/>
+<vertex x="36.525" y="17.8"/>
+<vertex x="39.625" y="17.8"/>
+<vertex x="40.425" y="18.6"/>
+<vertex x="40.425" y="22.1"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="39.625" y="22.9"/>
+<vertex x="36.525" y="22.9"/>
+<vertex x="35.725" y="22.1"/>
+<vertex x="35.725" y="18.6"/>
+<vertex x="36.525" y="17.8"/>
+<vertex x="39.625" y="17.8"/>
+<vertex x="40.425" y="18.6"/>
+<vertex x="40.425" y="22.1"/>
+<vertex x="39.625" y="22.9"/>
+</polygonoutlinesegments>
+</polygoncutout>
 </package>
 </packages>
 <packages3d>
-<package3d name="KEEBDECK_KEYBOARD_6R13C" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.q_-paRd9Te2afiXeQ1ohOA?version=3" locally_modified="yes" type="model">
+<package3d name="KEEBDECK_KEYBOARD_6R13C" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.q_-paRd9Te2afiXeQ1ohOA?version=3" locally_modified="yes" type="model" footprint_synced="no">
 <packageinstances>
 <packageinstance name="KEEBDECK_KEYBOARD_6R13C"/>
 </packageinstances>
